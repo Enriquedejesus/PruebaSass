@@ -1,0 +1,88 @@
+$color_h1: rgb(10, 166, 166);
+$colorh2:rgb(11, 5, 128);
+$color_letra:rgb(219, 219, 246);
+$color_fondo_parrafo: rgb(150, 8, 105);
+
+$padding_size:40px;
+$color_margen:rgb(66, 2, 87);
+$ancho_margen:10px;
+$tipo_letra: 'Times New Roman', Times, serif;
+$tipo_letra2:Arial, Helvetica, sans-serif;
+$size_letra:20px;
+$padding_settings: 1px;
+$alineacion_global: center;
+
+
+
+
+.materias,
+.sistemas,
+.informatica,
+.mecanica {
+  width: 100%;
+  padding: $padding_size; /* Ajusta el padding a 40px para los elementos <div> */
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: $ancho_margen solid $ancho_margen;
+
+}
+
+.materias p,
+.sistemas p,
+.informatica p,
+.mecanica p {
+  margin: 0;
+  padding: $padding_settings; /* Mantiene el padding a 10px para los párrafos */
+  border: $ancho_margen solid $color_margen;
+  background-color: $color_fondo_parrafo;
+  font-size: $size_letra;
+  color:$color_letra ;
+
+
+ 
+}
+
+.materias h2,
+.sistemas h2,
+.informatica h2,
+.mecanica h2 {
+  margin: 1;
+  text-align: $alineacion_global;
+  padding: $padding_settings;
+  align-items: $alineacion_global;
+  color: $colorh2;
+  font-family: $tipo_letra;
+  border: $ancho_margen solid $color_margen;
+  
+}
+
+.contenedor {
+  display: flex;
+}
+
+.titulo {
+  text-align: $alineacion_global;
+  padding: $padding_settings;
+  border: $ancho_margen solid $color_margen;
+  background-color: $color_fondo_parrafo;
+}
+
+.titulo h1 {
+  margin: 0;
+  text-align: $alineacion_global;
+  padding: $padding_settings;
+  align-items: $alineacion_global;
+  color: $color_h1;
+  
+  font-family: $tipo_letra2;
+}
+
+.materias h2 {
+  color: $colorh2;
+  margin: 1;
+  text-align: $alineacion_global;
+  padding: $padding_settings;
+  align-items: $alineacion_global;
+}

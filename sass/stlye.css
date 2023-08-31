@@ -18,10 +18,10 @@
 .mecanica p {
   margin: 0;
   padding: 1px; /* Mantiene el padding a 10px para los párrafos */
-  border: 10px solid rgb(66, 2, 87);
+  border: 10px solid rgb(3, 118, 250);
   background-color: rgb(150, 8, 105);
   font-size: 20px;
-  color: rgb(219, 219, 246);
+  color: rgb(179, 240, 12);
 }
 
 .materias h2,
@@ -32,9 +32,9 @@
   text-align: center;
   padding: 1px;
   align-items: center;
-  color: rgb(11, 5, 128);
+  color: rgb(220, 34, 152);
   font-family: "Times New Roman", Times, serif;
-  border: 10px solid rgb(66, 2, 87);
+  border: 10px solid rgb(3, 118, 250);
 }
 
 .contenedor {
@@ -44,7 +44,7 @@
 .titulo {
   text-align: center;
   padding: 1px;
-  border: 10px solid rgb(66, 2, 87);
+  border: 10px solid rgb(3, 118, 250);
   background-color: rgb(150, 8, 105);
 }
 
@@ -53,12 +53,12 @@
   text-align: center;
   padding: 1px;
   align-items: center;
-  color: rgb(10, 166, 166);
+  color: rgb(36, 204, 64);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .materias h2 {
-  color: rgb(11, 5, 128);
+  color: rgb(220, 34, 152);
   margin: 1;
   text-align: center;
   padding: 1px;
